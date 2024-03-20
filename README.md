@@ -33,7 +33,7 @@ The founders of the project are **Zijiao Chen, Wan Lin Yue, and Juan Helen Zhou*
 
 **MinD-Vis takes fMRI scans of the brain when a patient is given a visual stimulus and decodes and reconstructs the visual stimulus based on the fMRI pattern.** 
 > **Decoding visual stimuli from brain recordings aims to deepen our understanding of the human visual system and build a solid foundation for bridging human and computer
-vision through the Brain-Computer Interface.**
+vision through the Brain-Computer Interface.** (Chen et al.)
 
 ![alt text](image.png)
 
@@ -43,14 +43,14 @@ vision through the Brain-Computer Interface.**
 
 * *What solution does this project offer that their competitors do not or cannot offer?*
 
-> **MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.**
+> **MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.** (Chen et al.)
 
 ![alt text](image-2.png)
 
 * *Which technologies are they currently using, and how are they implemented?* 
 
 **MinD-Vis uses Sparse-Coded Masked Brain Modeling (SC-MBM), which is innovative and original to MinD-Vis, as an effective brain feature learner for vision decoding. Also, augmenting the [latent diffusion model](https://medium.com/@aguimarneto/what-is-latent-diffusion-in-ai-43aa1ad4f71e) with double conditioning (DC-LDM) allows MinD-Vis to enforce stronger decoding consistencies while allowing variance under the same semantics.**
->  **Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods.**
+>  **Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods.** (Chen et al.)
 
 ![alt text](image-3.png)
 
@@ -62,7 +62,7 @@ vision through the Brain-Computer Interface.**
 
 * *What have been the major trends and innovations of this field over the last 5 - 10 years?*
 
-**Some [major trends in the medicine field regarding AI](https://www.lapu.edu/ai-health-care-industry/) in the recent past have included AI algorithims analyzing medical imaging data to better diagnose patients, speech recognition technologies to help doctors dictate and better document information on patients, and new drug discoveries.**
+**Some [major trends in the medicine field regarding AI](https://www.lapu.edu/ai-health-care-industry/) in the recent past have included AI algorithims analyzing medical imaging data to better diagnose patients, speech recognition technologies to help doctors dictate and better document information on patients, and new drug discoveries.** (Tomberlin, 2023)
 
 * *What are the other major projects in this field?*
 
@@ -84,11 +84,27 @@ vision through the Brain-Computer Interface.**
 
 * *What technologies would this additional product or service utilize?*
 
+**There would be a need for camera and brain pattern simulation/projection technologies in order for my idea to work.**
 
+* *Why are these technologies appropriate for your solution?*
 
+**These technologies would be appropriate because the MinD-Vis technology by itself would not be sufficient.**
 
+## Sources
 
+Chen, Z., Yue, W. L., Zhou, J. H., Qing, J., & Xiang, T. (n.d.). *Seeing beyond the brain: Conditional diffusion model with sparse masked modeling for vision decoding CVPR2023*. MinD-Vis. https://mind-vis.github.io/ 
 
+Ozcelik, F., & VanRullen, R. (2023, September 20). *Natural scene reconstruction from fmri signals using Generative Latent Diffusion*. Nature News. https://www.nature.com/articles/s41598-023-42891-8 
+
+Gaziv, G., Beliy, R., Granot, N., Hoogi, A., Strappini, F., Golan, T., & Irani, M. (2022, March 24). *Self-supervised natural image reconstruction and large-scale semantic classification from brain activity*. NeuroImage. https://www.sciencedirect.com/science/article/pii/S105381192200249X 
+
+*Papers with code - GOD dataset*. GOD Dataset | Papers With Code. (n.d.). https://paperswithcode.com/dataset/god 
+
+Neto, A. (2023, December 13). *What is latent diffusion in ai?*. Medium. https://medium.com/@aguimarneto/what-is-latent-diffusion-in-ai-43aa1ad4f71e 
+
+Tomberlin, C. (2023, December 21). Revolutionizing Healthcare: *How is AI being used in the healthcare industry?*. Los Angeles Pacific University. https://www.lapu.edu/ai-health-care-industry/ 
+
+Wikimedia Foundation. (2024, March 19). *Fréchet inception distance*. Wikipedia. https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance 
 
 
 
