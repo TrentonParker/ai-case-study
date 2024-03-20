@@ -7,5 +7,5 @@
 
 ## Overview and Origin
 
-**Name of Company
-*MinD-Vis
+** Name of Company
+* MinD-Vis
