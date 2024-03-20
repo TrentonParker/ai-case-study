@@ -36,7 +36,9 @@ deepen our understanding of the human visual system and
 build a solid foundation for bridging human and computer
 vision through the Brain-Computer Interface.** 
 
-![mind-vis](/pictures/screenshots/mind-vis.png 'mind-vis')
+![alt text](image.png)
+
+
 
 
 
