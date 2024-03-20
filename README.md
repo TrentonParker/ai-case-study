@@ -3,9 +3,9 @@
 
 
 
-# Title
+# MinD-Vis AI Project
 
 ## Overview and Origin
 
-testing
-testing testing
+**Name of Company
+*MinD-Vis
