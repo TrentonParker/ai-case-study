@@ -32,8 +32,8 @@ The founders of the project are **Zijiao Chen, Wan Lin Yue, and Juan Helen Zhou*
 * *What specific problem is the project trying to solve?*
 
 **MinD-Vis takes fMRI scans of the brain when a patient is given a visual stimulus and decodes and reconstructs the visual stimulus based on the fMRI pattern.** 
-> Decoding visual stimuli from brain recordings aims to deepen our understanding of the human visual system and build a solid foundation for bridging human and computer
-vision through the Brain-Computer Interface.
+> **Decoding visual stimuli from brain recordings aims to deepen our understanding of the human visual system and build a solid foundation for bridging human and computer
+vision through the Brain-Computer Interface.**
 
 ![alt text](image.png)
 
@@ -43,14 +43,14 @@ vision through the Brain-Computer Interface.
 
 * *What solution does this project offer that their competitors do not or cannot offer?*
 
-> MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.
+> **MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.**
 
 ![alt text](image-2.png)
 
 * *Which technologies are they currently using, and how are they implemented?* 
 
 **MinD-Vis uses Sparse-Coded Masked Brain Modeling (SC-MBM), which is innovative and original to MinD-Vis, as an effective brain feature learner for vision decoding. Also, augmenting the [latent diffusion model](https://medium.com/@aguimarneto/what-is-latent-diffusion-in-ai-43aa1ad4f71e) with double conditioning (DC-LDM) allows MinD-Vis to enforce stronger decoding consistencies while allowing variance under the same semantics.**
->  Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods.
+>  **Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods.**
 
 ![alt text](image-3.png)
 
@@ -70,9 +70,21 @@ vision through the Brain-Computer Interface.
 
 * *How is your project performing relative to competitors in the same field?*
 
-> MinD-Vis has State-of-the-art 100-way top-1 classification accuracy on GOD dataset: 23.9%, outperforming the previous best by 66%, and State-of-the-art generation quality [(FID)](https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance) on GOD dataset: 1.67, outperforming the previous best by 41%.
+> **MinD-Vis has State-of-the-art 100-way top-1 classification accuracy on GOD dataset: 23.9%, outperforming the previous best by 66%, and State-of-the-art generation quality [(FID)](https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance) on GOD dataset: 1.67, outperforming the previous best by 41%.**
 
 ## Recommendations
+
+* *If you were to advise the company, what products or services would you suggest they offer?*
+
+**This would definitely be something I would try and sell to the medical field, to medical facilities that are involved in the neurosciences. You could offer MinD-Vis as a way of gaining a better understanding of how the brain operates when processing visual stimiuli. Another idea I have, which may be a bit far out, is once the technology is super refined and accurate, you could possibly reverse engineer it as a way of allowing blind people to see, with some sort of camera that has the technology to shoot the specific patterns of visual stimuli to the brain, allowing the patient to visualize in their mind what the camera is seeing.**
+
+* *Why do you think that offering this product or service would benefit the company?* 
+
+**It would be a way of monetizing the project's technology to medical companies.**
+
+* *What technologies would this additional product or service utilize?*
+
+
 
 
 
