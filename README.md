@@ -31,10 +31,9 @@ The founders of the project are **Zijiao Chen, Wan Lin Yue, and Juan Helen Zhou*
 
 * *What specific problem is the project trying to solve?*
 
-**MinD-Vis takes fMRI scans of the brain when a patient is given a visual stimulus and decodes and reconstructs the visual stimulus based on the fMRI pattern. Decoding visual stimuli from brain recordings aims to
-deepen our understanding of the human visual system and
-build a solid foundation for bridging human and computer
-vision through the Brain-Computer Interface.** 
+**MinD-Vis takes fMRI scans of the brain when a patient is given a visual stimulus and decodes and reconstructs the visual stimulus based on the fMRI pattern.** 
+> Decoding visual stimuli from brain recordings aims to deepen our understanding of the human visual system and build a solid foundation for bridging human and computer
+vision through the Brain-Computer Interface.
 
 ![alt text](image.png)
 
@@ -44,17 +43,37 @@ vision through the Brain-Computer Interface.**
 
 * *What solution does this project offer that their competitors do not or cannot offer?*
 
-**MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.**
+> MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.
 
 ![alt text](image-2.png)
 
 * *Which technologies are they currently using, and how are they implemented?* 
 
-**MinD-Vis uses Sparse-Coded Masked Brain Modeling (SC-MBM), which is innovative and original to MinD-Vis, as an effective brain feature learner for vision decoding. Also, augmenting the [latent diffusion model](https://medium.com/@aguimarneto/what-is-latent-diffusion-in-ai-43aa1ad4f71e) with double conditioning (DC-LDM) allows MinD-Vis to enforce stronger decoding consistencies while allowing variance under the same semantics. Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods**
+**MinD-Vis uses Sparse-Coded Masked Brain Modeling (SC-MBM), which is innovative and original to MinD-Vis, as an effective brain feature learner for vision decoding. Also, augmenting the [latent diffusion model](https://medium.com/@aguimarneto/what-is-latent-diffusion-in-ai-43aa1ad4f71e) with double conditioning (DC-LDM) allows MinD-Vis to enforce stronger decoding consistencies while allowing variance under the same semantics.**
+>  Integrating the representation ability of SC-MBM with the generation ability of DC-LDM, MinD-Vis generates more plausible images with better preserved semantic information compared with previous methods.
 
-![alt text](image-1.png)
+![alt text](image-3.png)
 
 ## Landscape
+
+* *What field is the project in?*
+
+**This project is in the medicine field.**
+
+* *What have been the major trends and innovations of this field over the last 5 - 10 years?*
+
+**Some [major trends in the medicine field regarding AI](https://www.lapu.edu/ai-health-care-industry/) in the recent past have included AI algorithims analyzing medical imaging data to better diagnose patients, speech recognition technologies to help doctors dictate and better document information on patients, and new drug discoveries.**
+
+* *What are the other major projects in this field?*
+
+**A couple of other researchers, such as [Furkan Ozcelik](https://www.nature.com/articles/s41598-023-42891-8), [Guy Gaziv](https://www.sciencedirect.com/science/article/pii/S105381192200249X), and [Roman Beliy](https://www.sciencedirect.com/science/article/pii/S105381192200249X) are some other leaders in the field. ('Figure 5' above compares MinD-Vis to their work)**
+
+* *How is your project performing relative to competitors in the same field?*
+
+> MinD-Vis has State-of-the-art 100-way top-1 classification accuracy on GOD dataset: 23.9%, outperforming the previous best by 66%, and State-of-the-art generation quality [(FID)](https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance) on GOD dataset: 1.67, outperforming the previous best by 41%.
+
+## Recommendations
+
 
 
 
