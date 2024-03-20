@@ -38,6 +38,14 @@ vision through the Brain-Computer Interface.**
 
 ![alt text](image.png)
 
+* *Who is the project's intended customer? Is there any information about the market size of this set of customers?*
+
+**This project is just that, a project, at this point in time. However, this technology offers major implications to the medical field such as enhanced communication with non-verbal patients, improved non-invasive monitoring of the brain, and other advancements regarding neuroscience research.**
+
+* *What solution does this project offer that their competitors do not or cannot offer?*
+
+**MinD-Vis offers a state-of-the-art 100-way top-1 classification accuracy on [GOD dataset](https://paperswithcode.com/dataset/god): 23.9%, outperforming the previous best by 66%.**
+
 
 
 
